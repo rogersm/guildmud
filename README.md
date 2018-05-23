@@ -29,7 +29,9 @@ When you are finished coding, the `vagrant halt` command will shut the virtual m
 
 #### MacOS development environment
 
-For macOS there's no need to setup vagrant, but having macOS Xcode installed including the Command line tools. The easiest way is at the command line term:
+For macOS there's no need to setup vagrant, and having macOS Xcode installed including the Command Line tools plus some brew packages is enough.
+
+The easiest way to install XCode with the Comman Line Tools is, at the command line term:
 
 `$ xcode-select --install`
 
@@ -38,6 +40,7 @@ once this is done, proceed to install [brew](https://brew.sh/) (if not installed
 and install the following packages:
 
 `$ brew install sqlite check` 
+
 
 ### Compiling GuildMUD
 
